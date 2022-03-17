@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+}
+
+body,html{
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    line-height: 1.1;
+    max-width: 75ch;
+}
+
+h1{
+    font-size: clamp(2rem,5vw,2.5rem);
+}
+
+h2{
+    font-size: clamp(1.7rem,5vw,2.2rem);
+}
+
+h3{
+    font-size: clamp(1.4rem,5vw,1.9rem);
+}
+
+h4{
+    font-size: clamp(1.1rem,5vw,1.6rem);
+}
+
+p{
+    max-width: 75ch;
+    font-weight: lighter;
+    font-size: clamp(0.9rem,5vw,1rem);
+}
+
+label{
+    font-weight: lighter;
+    max-width: 75ch;
+}
+
+p,
+button,
+a,
+label,
+input{
+    font-family: 'Roboto',sans-serif;
+}
+
+
+button,
+a,
+label,
+input{
+    font-size: clamp(1rem,5vw,1.1rem);
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 0.3rem 0.8rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+

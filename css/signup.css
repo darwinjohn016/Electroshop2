@@ -1,0 +1,47 @@
+:root{
+    --dominant-color: #E0E0E0;
+    --secondary-color: #353535;
+    --accent-color: #00754B;
+}
+
+body{
+    background-color: var(--dominant-color);
+    display: flex;
+    align-items: center;
+}
+
+.form-signup{
+    width: min(90%,400px);
+    margin: 0 auto;
+    background-color: red;
+    padding: 3rem;
+}
+
+.form-header h3{
+    margin-bottom: 2rem;
+}
+
+.form-header-title{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-header-title div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-body-inner h4{
+    margin-bottom: 1.5rem;
+}
+
+.form-body-inner div{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    margin: .8rem 0;
+}
+
+
